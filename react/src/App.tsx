@@ -1,7 +1,17 @@
 import './App.css';
+import { Button } from './stories/Button';
 
 function App() {
-  return <div>스토리북 시작</div>;
+  return (
+    <div>
+      <Button
+        backgroundColor="#f40000"
+        label="Button"
+        onClick={() => {}}
+        primary
+      />
+    </div>
+  );
 }
 
 export default App;
