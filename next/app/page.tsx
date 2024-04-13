@@ -1,10 +1,11 @@
 'use client';
-import { Button } from '@/stories/Button';
+
+import Button from '@/components/Button/Button';
 
 export default function Home() {
   return (
     <main>
-      <Button label="Button" primary size="small" />
+      <Button label="안녕하세요" />
     </main>
   );
 }
