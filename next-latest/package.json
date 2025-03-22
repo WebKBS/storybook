@@ -36,7 +36,6 @@
     "eslint-config-next": "15.2.3",
     "eslint-plugin-storybook": "^0.11.6",
     "playwright": "^1.51.1",
-    "prettier": "3.5.3",
     "storybook": "^8.6.8",
     "tailwindcss": "^4",
     "typescript": "^5",
