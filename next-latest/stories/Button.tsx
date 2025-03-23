@@ -3,15 +3,25 @@ import React from 'react';
 import './button.css';
 
 export interface ButtonProps {
-  /** Is this the principal call to action on the page? */
+  /**
+   * 버튼의 primary 속성을 설정합니다.
+   */
   primary?: boolean;
-  /** What background color to use */
+  /**
+   *  버튼의 배경색을 설정합니다.
+   */
   backgroundColor?: string;
-  /** How large should the button be? */
-  size?: 'small' | 'medium' | 'large';
-  /** Button contents */
+  /**
+   * 버튼의 사이즈를 설정합니다.
+   */
+  size?: "small" | "medium" | "large" | "xlarge";
+  /**
+   * 버튼의 라벨을 설정합니다.
+   */
   label: string;
-  /** Optional click handler */
+  /**
+   * 버튼의 클릭 이벤트를 설정합니다.
+   */
   onClick?: () => void;
 }
 
